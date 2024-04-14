@@ -6,8 +6,8 @@ dias_fumando = tempo_fumado * 365
 total_fumados = dias_fumando * quantidade_por_dia
 total_gastos = total_fumados * valor
 
-limite_inferior = 20000
-limite_superior = 50000
+limite_inferior = 10000
+limite_superior = 80000
 
 print(f"Você fumou {total_fumados} cigarros ao longo de {dias_fumando} dias.")
 
